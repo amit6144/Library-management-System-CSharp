@@ -68,13 +68,13 @@ namespace Library_Managent_System
                         else
                         {
                             MessageBox.Show("Logged in as Admin");//
-                          //  AdminDash admin = new AdminDash();
-                          ////  admin.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
-                           // admin.Show();
+                          AdminDash admin = new AdminDash();
+                           admin.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+                          admin.Show();
                             
-                           // this.Hide();
+                          this.Hide();
                         }
-                    }
+                    } 
                     else
                     {
                         MessageBox.Show("User not found");

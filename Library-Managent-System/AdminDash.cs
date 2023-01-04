@@ -101,5 +101,17 @@ namespace Library_Managent_System
         {
 
         }
+
+        private void AdminDash_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+
+        }
     }
 }
